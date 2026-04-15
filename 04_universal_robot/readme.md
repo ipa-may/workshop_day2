@@ -3,9 +3,14 @@
 ## Building
 
 1. Cloning
-Clone the repo from here : https://github.com/ipa-may/rob4_atc_2026_ur_examples into a correct ROS 2 workspace.
+Clone the repo from here : https://github.com/ipa-may/rob4_atc_2026_ur_examples into a **correct ROS 2 workspace**.
+
 
 You can create another workspace with an `src` folder in it. Inside you clone the repo.
+
+
+For a more detailed explanation, see [explanation_on_ros2_workspace.md](./explanation_on_ros2_workspace.md).
+
 
 You will need to checkout to the branch `ur5e_real`.
 
