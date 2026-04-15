@@ -7,5 +7,12 @@ https://github.com/ipa-may/docker_ros2_tutorial
 
 Example for the realsense camera:
 ```sh
+# Build
+docker compose -f 03_ros2_realsense/compose.ros2_camera_jazzy.yaml build
+
+# Start
 docker compose -f 03_ros2_realsense/compose.ros2_camera_jazzy.yaml up
+
+# Stop
+docker compose -f 03_ros2_realsense/compose.ros2_camera_jazzy.yaml down
 ```
