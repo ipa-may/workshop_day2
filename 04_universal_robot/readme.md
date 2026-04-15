@@ -42,7 +42,7 @@ This repo is the FZI cartesian controllers: https://github.com/fzi-forschungszen
 Again, don't forget rosdep from the workspace folder:
 
 ```sh
-rosdep install --from-paths ./ --ignore-src -y
+rosdep install --from-paths src --ignore-src -ry
 ```
 
 5. Building
@@ -76,6 +76,11 @@ With the real robot
 
 ```sh
 ros2 launch ur_atc_robot_cell_control start_robot.launch.py ur_type:=ur5e robot_ip:=192.168.1.10
+```
+
+With a mocked robot:
+```sh
+ros2 launch ur_atc_robot_cell_control start_robot.launch.py ur_type:=ur5e use_mock_hardware:=true
 ```
 
 ## Using ros2 control CLI
