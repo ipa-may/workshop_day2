@@ -70,6 +70,10 @@ colcon build --symlink-install --packages-up-to ur3e_ros2_control_scripts_exampl
 
 ## Running
 
+With the real robot 
+- you need to be connected with it via an ethernet cable
+- you need to set your IP to `192.168.1.5`
+
 ```sh
 ros2 launch ur_atc_robot_cell_control start_robot.launch.py ur_type:=ur5e robot_ip:=192.168.1.10
 ```
