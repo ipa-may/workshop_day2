@@ -69,6 +69,12 @@ ros2 run turtlesim turtle_teleop_key --ros-args -r /turtle1/cmd_vel:=/cmd_vel_un
 
 Now you can move the turtlebot4 around as if it is a turtlesim.
 
+**If it does not work, you can use the teleop_twist_keyboard package:**
+
+```sh
+ros2 run teleop_twist_keyboard teleop_twist_keyboard --ros-args -p stamped:=true
+```
+
 
 ### Move the robot with `/cmd_vel`
 

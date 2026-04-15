@@ -14,6 +14,14 @@ It is useful when you want to inspect:
 
 It is much easier for time-series inspection than repeatedly using `ros2 topic echo`.
 
+## Install Plotjuggler
+
+https://github.com/facontidavide/PlotJuggler
+
+```sh
+sudo apt install ros-$ROS_DISTRO-plotjuggler-ros
+```
+
 ## Start PlotJuggler
 
 If PlotJuggler is installed with ROS 2 support, start it with:
