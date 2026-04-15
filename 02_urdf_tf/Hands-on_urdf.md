@@ -38,6 +38,8 @@ ros2 launch cartesian_robot_description cartesian_robot_view.launch.py
 
 In Rviz, add the RobotModel. Under `Description Topic` select `/robot_description`.
 
+The `/map` topic does not exist in this scene. Therefore under `Global Options` Display, select near the `Fixed Frame` the `/base_link`.
+
 You can now visualize the gantry system.
 
 Once done, you can close the running ros2 launch.
