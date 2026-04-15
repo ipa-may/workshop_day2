@@ -42,6 +42,11 @@ rosdep install --from-paths ./ --ignore-src -y
 
 5. Building
 
+First source :
+```sh
+source /opt/ros/jazzy/setup.bash
+```
+
 Now we can build:
 
 ```sh
